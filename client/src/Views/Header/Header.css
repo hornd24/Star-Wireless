@@ -1,23 +1,28 @@
 .head{
    
     color: black;
-    background-color: white;
+    
     height: 743.2px;
 }
 
 .Title{
+    margin-top:5%;
     padding-top: 10%;
+    color: aliceblue;
+    font-family: 'Sunflower', sans-serif;
     padding-left: 15%;
 }
-
+.backr{
+    
+}
 .Iphone{
     /* background-size:auto 400px; */
     z-index: -1;
     background-repeat: no-repeat;
     /* margin: 0 auto; */
-  margin-top: 30%;
+  margin-top: 45%;
    /* height: 300px; */
-   width: 230px;
+   width: 320px;
    border-radius: 100px;
    background-position: 50% 50%;
    background-repeat: no-repeat;
@@ -42,7 +47,12 @@ padding-right: 10px;
     /* padding-left: 7%; */
 }
 .info{
+    margin-left: 70px;
+    padding-left: 50px;
+    margin-top: -180px;
     width: 55%;
+    color: aliceblue;
+    font-family: 'IBM Plex Sans', sans-serif;
     /* padding-left: 12%; */
     font-size: 13.5px;
     /* padding-right: 5%; */
