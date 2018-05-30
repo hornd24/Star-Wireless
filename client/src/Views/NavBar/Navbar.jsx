@@ -39,9 +39,9 @@ import './Navbar.css'
     }
      render(){
     return (
-        <div>
+        <div classNames="navbar"> 
            
-            <Navbar  classNames="navbar" fluid={true} toggleKey collapseOnSelect  fixedTop>
+            <Navbar bsClass='navbar '  fluid={true} toggleKey collapseOnSelect  fixedTop>
                 <Navbar.Header>
                     <Navbar.Brand>
                     <Link className="links" to="/" onClick={this.scrollToTop}>
@@ -56,7 +56,7 @@ import './Navbar.css'
                 <Nav pullRight style={{paddingLeft:'100px',paddingRight:'100px'}}>
                     <NavItem eventKey={1} >
                     
-                    <DropdownButton eventKey={3} bsStyle='link' title='Santa Monica Location'>
+                    <DropdownButton  eventKey={3} bsStyle='link' title='Santa Monica Location'>
                     <MenuItem eventKey="1"> 1301 South Main St #210, Los Angeles, CA 90015</MenuItem>
                     </DropdownButton>
                  
@@ -68,20 +68,11 @@ import './Navbar.css'
                    
                     <NavItem eventKey={4} onClick={this.scrollToProjects}>
 
-                    
-                
-           
-                    <DropdownButton eventKey={3} bsStyle='link' title='Los Angeles Location'>
+                    <DropdownButton style={{paddingRight:'300px'}} eventKey={3} bsStyle='link' title='Los Angeles Location'>
                     <MenuItem eventKey="1"> 1301 South Main St #210, Los Angeles, CA 90015</MenuItem>
                     </DropdownButton>
-
-
-                   
-                
-                  
                     </NavItem>
-                   
-                    <NavItem eventKey={4} onClick={this.scrollToProjects}>
+                     {/* <NavItem eventKey={4} onClick={this.scrollToProjects}>
                     <Link to='projects'>
 
                     <p style={{color:'white'}}>lkemkgvkgnnnmjknm</p>
@@ -91,7 +82,7 @@ import './Navbar.css'
                     <Link to='projects'>
                     <p style={{color:'white'}}>lkemkgvkgnm</p>
                         </Link>
-                    </NavItem>
+                    </NavItem> */}
                     <NavItem eventKey={6} onClick={this.scrollToContact} >
                     <Button  className='buttons'bsStyle="primary" bsSize="sm">
                     <Link  className='service' to="/service">

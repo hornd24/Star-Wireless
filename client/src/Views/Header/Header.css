@@ -1,0 +1,77 @@
+.head{
+   
+    color: black;
+    background-color: white;
+    height: 743.2px;
+}
+
+.Title{
+    padding-top: 10%;
+    padding-left: 15%;
+}
+
+.Iphone{
+    background-size:auto 300px;
+    z-index: -1;
+    margin: 0 auto;
+    background-image: 
+    url('./Images/cracked-iphone2.png');
+   height: 475px;
+   /* width: 70%; */
+   background-repeat: no-repeat;
+    padding-top: 0%;
+    transition: .3s ;
+    transition-timing-function: ease-in-out;
+    /* margin-top: -150px; */
+    /* padding-bottom: 100px; */
+}
+.photos{
+    /* margin-left: 50% !important; */
+}
+.Iphone:hover{
+    background-size:auto 350px;
+    z-index: -1;
+    margin: 0 auto 0 0;
+    height: 500px;
+    transition: .3s all;
+    background-image: 
+    url('./Images/Iphone2.png');
+    transition: .3 all;
+    transition-timing-function: ease-in-out;
+}
+.for{
+    padding-left: 7%;
+}
+.info{
+    width: 55%;
+    padding-left: 12%;
+    font-size: 13.5px;
+    /* padding-right: 5%; */
+}
+.text{
+    color: black;
+    transition: .3 all;
+    padding-left: 20%;
+    margin-top: -160px;
+}
+.text:hover text:after{
+content: 'ADD'
+}
+
+.test{
+   margin-top: -200px;
+    padding-left: 60%;
+    margin-right: 0;
+    /* height: 100px; */
+    /* width: 1000px; */
+}
+/* .test:hover{
+    padding-left: 40%;
+} */
+
+@media only screen and (max-width: 768px) {
+
+    .test:hover:active{
+        padding-left: 40%;
+    }
+}

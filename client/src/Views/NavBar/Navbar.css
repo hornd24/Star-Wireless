@@ -12,3 +12,7 @@
     font-weight: 900;
   
 }
+.navbar{
+height: 10px;
+  background-color: black !important;
+}

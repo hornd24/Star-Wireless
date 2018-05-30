@@ -4,8 +4,8 @@ import Home from './Home';
 import Organization from './Organization'
 import './app.scss'
 import TheNavBar from './NavBar/Navbar'
-
-
+import Header from './Header/Header'
+import { Parallax } from 'react-scroll-parallax';
 class App extends Component {
 
   state={
@@ -18,6 +18,15 @@ class App extends Component {
   <div className="app">
    
 <TheNavBar/>
+<Parallax
+        className="TheHeader"
+        offsetYMax={20}
+        offsetYMin={-40}
+        slowerScrollRate
+        tag="figure"
+    >
+<Header className='Header'/>
+</Parallax>
     {/* <Route exact path="/" component={Home}/>
     <Route path="/organization" component={Organization}/> */}
   </div>
