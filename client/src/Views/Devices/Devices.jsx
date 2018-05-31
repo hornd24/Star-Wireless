@@ -10,9 +10,10 @@ import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
 import Thumbnail from 'react-bootstrap/lib/Thumbnail';
 import Image from 'react-bootstrap/lib/Image';
-import Phones from './Images/iphone2.png'
-import Tablet from './Images/ipad.png'
-import Mac from './Images/mac.png'
+import Phones from './Images/iphone2.png';
+import Tablet from './Images/ipad.png';
+import Mac from './Images/mac.png';
+import Ipod from './Images/ipod.png';
 import './Devices.css'
  class Devices extends Component {
     
@@ -32,23 +33,28 @@ import './Devices.css'
             <Col className="devi " lg={12}>
 <div className='group'>
 
-           <Image  src={Phones}  rounded responsive className="Phone" >
+           <Image  href='phones' src={Phones}  rounded responsive className="Phone" >
                           
                                </Image>
                                <br/>
                              <a className='link names' href='/phones'>   Phones</a>
-                               <Image  src={Tablet} rounded  responsive className=" Tablet" >
+                               <Image className='/tablets' src={Tablet} rounded  responsive className=" Tablet" >
                 
 
                                </Image>
                         
-                             <a  className='link names2' href='tablets'>  Tablets</a>
-                               <Image  src={Mac} rounded  responsive className=" Mac" >
+                             <a  className='link names2' href='/tablets'>  Tablets</a>
+                               <Image href='/computers' src={Mac} rounded  responsive className=" Mac" >
                 
 
                 </Image>
              
                <a  className='link names3' href='/computers'>  Computers</a>
+               <Image href='/ipod' src={Ipod} rounded  responsive className="Ipod" >
+                
+
+                </Image>
+                <a href='/ipod' className='links names4'>Ipods</a>
          </div>                   
                                
 
@@ -57,7 +63,7 @@ import './Devices.css'
             <br/>  <br/>  <br/>
             <Row>
                 <Col className='theInfo' lg={12}>
-                <Thumbnail responsive style={{width:'300px',height:'250px'}} >
+                <Thumbnail className='best' responsive style={{width:'300px',height:'250px'}} >
                 <h4>Best Price Guarnteed</h4>
                 <br/>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -71,6 +77,12 @@ import './Devices.css'
                 </Thumbnail>
                 <Thumbnail responsive className='free' style={{width:'300px',height:'250px'}} >
                 <h4>Free Diagnostics Check</h4>
+                <br/>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+                </Thumbnail>
+                <Thumbnail responsive className='warranty ' style={{width:'300px',height:'250px'}} >
+                <h4>30 Day Warranty</h4>
                 <br/>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
