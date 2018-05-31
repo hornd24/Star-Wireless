@@ -38,7 +38,7 @@ const Fixed_Iphone=Iphone;
       <div className='Iphone'>
 
      
-<ReactCompareImage className='ThePhone' handleSize={50} sliderLineWidth={.00010} leftImage={BrokenIphone} rightImage={Iphone} />;
+<ReactCompareImage className='ThePhone' handleSize={50} sliderLineWidth={10} leftImage={BrokenIphone} rightImage={Iphone} />;
 </div>
   
      </div>
