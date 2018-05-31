@@ -15,9 +15,28 @@
 .backr{
     
 }
+.line{
+    background-image: url('./Images/line.png');
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    margin-top: -110px;
+    margin-right: 60px !important;
+    background-size: 300px 300px;
+    background-position: -45px;
+    background-repeat: no-repeat;
+}
+.headerPhone{
+    height: 350px;
+    width: 300px;
+    transform-style: preserve-3d;
+    perspective: 600px;position: relative;
+    transform: rotateY( 5.8deg);
+    filter: grayscale(18%)
+}
 .Iphone{
     /* background-size:auto 400px; */
-    z-index: -1;
+    z-index: -10;
     background-repeat: no-repeat;
     /* margin: 0 auto; */
   margin-top: 45%;

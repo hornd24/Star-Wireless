@@ -9,7 +9,7 @@
 }
 .names{
     margin-top:40px;
-    margin-left: 68px;
+    margin-left: -33px;
     box-sizing: content-box;
     font-size: 30px;
     width: 90px;
@@ -39,14 +39,7 @@
     width: 1px;
    
 }
-.Phone{
-    z-index: -1;
-    height: 220px;
-    width: 500px;
-    margin-left: -80px;
-    padding-right: 100px;
-    margin-top: -70px;
-}
+
 .group{
     margin-top: 200px;
     margin-left: 200.9px;
@@ -54,12 +47,41 @@
 .devi{
     margin-bottom: 10px;
 }
+.Phone{
+    z-index: -1;
+    height: 220px;
+    width: 500px;
+    margin-left: -180px;
+    padding-right: 100px;
+    margin-top: -70px;
+    filter: grayscale(80%);
+ 
+}
+.theInfo{
+    margin-top: 89px;
+    margin-left: 4%;
+}
+.fast{
+    margin-top:-280px; 
+    margin-left: 400px;
+}
+.free{
+    margin-top:-280px; 
+    margin-left: 780px;
+}
+.Phone:hover{
+    filter: grayscale(0%);
+}
 .Tablet{
     height: 200px;
     width: 180px;
     margin-top: -270px;
     margin-left: 252.9px;
     margin-bottom: 20px;
+    filter: grayscale(80%);
+}
+.Tablet:hover{
+    filter: grayscale(0%);
 }
 .Mac{
     
@@ -68,7 +90,11 @@
         margin-bottom: 10px;
         margin-top: -270.5px;
         margin-left: 510.9px;
+        filter: grayscale(80%);
     
+}
+.Mac:hover{
+    filter: grayscale(0%);
 }
 .thephone{
     height: 100px;

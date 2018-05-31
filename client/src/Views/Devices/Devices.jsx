@@ -54,6 +54,29 @@ import './Devices.css'
 
             </Col>
             </Row>
+            <br/>  <br/>  <br/>
+            <Row>
+                <Col className='theInfo' lg={12}>
+                <Thumbnail responsive style={{width:'300px',height:'250px'}} >
+                <h4>Best Price Guarnteed</h4>
+                <br/>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+                </Thumbnail>
+                <Thumbnail responsive className='fast' style={{width:'300px',height:'250px'}} >
+                <h4>Fastest Service Around</h4>
+                <br/>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+                </Thumbnail>
+                <Thumbnail responsive className='free' style={{width:'300px',height:'250px'}} >
+                <h4>Free Diagnostics Check</h4>
+                <br/>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+                </Thumbnail>
+                </Col>
+                </Row>
       
         </Grid>
     

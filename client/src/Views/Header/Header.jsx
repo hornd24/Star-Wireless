@@ -6,10 +6,11 @@ import {Link} from 'react-router-dom';
 // import NavItem from 'react-bootstrap/lib/NavItem';
 import './Header.css'
 import BrokenIphone from './Images/cracked-iphone2.png'
-import Iphone from './Images/iphone.png'
+import Iphone from './Images/Iphone2.png'
 import Grid from 'react-bootstrap/lib/Grid';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
+import Image from 'react-bootstrap/lib/Image';
 import ImageComparisonSlider from './ImageSlider';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import ReactCompareImage from 'react-compare-image';
@@ -29,16 +30,19 @@ const Fixed_Iphone=Iphone;
         <Row>
             <Col lg={8}>
         <div className='Title'>
-      <h1 > Amazing Repairs </h1><h1 className='for'>For An</h1><h1>  Amazing Price </h1>
+      <h1 > Amazing Repairs </h1><h1>  Amazing Price </h1>
+<div className='line'>
+</div>
       </div>
+      
       </Col>
       <Col lg={4}>
       <div className='test'>
 
       <div className='Iphone'>
 
-     
-<ReactCompareImage className='ThePhone' handleSize={50} sliderLineWidth={10} leftImage={BrokenIphone} rightImage={Iphone} />;
+     <Image className='headerPhone' src={Iphone}/>
+{/* <ReactCompareImage className='ThePhone' handleSize={50} sliderLineWidth={10} leftImage={BrokenIphone} rightImage={Iphone} />; */}
 </div>
   
      </div>
