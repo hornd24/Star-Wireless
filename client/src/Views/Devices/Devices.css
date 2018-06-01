@@ -8,18 +8,20 @@
     height: 100%;
 }
 .names{
-    margin-top:30px;
     margin-left: -350.8px;
+    margin-top:30px;
+   
     box-sizing: content-box;
     font-size: 30px;
     width: 90px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 .names2{
+    margin-left: 40px;
     width: 90px;
     margin-top:45px;
     padding-top: 40px;
-    margin-left: 40px;
+   
     box-sizing: content-box;
     font-size: 30px;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -35,11 +37,12 @@
    
 }
 .names4{
+    margin-left: 1065px;
     font-size: 30px;
     height: -2px;
     width: .5px;
     margin-top:40px;
-    margin-left: 1065px;
+    
     font-family: 'IBM Plex Sans', sans-serif;
 }
 .link{
@@ -60,15 +63,15 @@
     margin-left: 4%;
 }
 .fast{
-    margin-top:-280px; 
+    margin-top:-270px; 
     margin-left: 100px;
 }
 .free{
-    margin-top:-280px; 
+    margin-top:-270px; 
     margin-left: 599px;
 }
 .warranty{
-    margin-top:-280px; 
+    margin-top:-270px; 
     margin-left: 1080px;
 }
 .best{
@@ -107,10 +110,10 @@
 }
 .Mac{
     
-        height: 215px;
+        height: 205px;
         width: 250px;
         margin-bottom: 10px;
-        margin-top: -270.5px;
+        margin-top: -260.5px;
         margin-left: 510.9px;
         filter: grayscale(80%);
         transition: all .2s ease-in-out;
@@ -143,4 +146,50 @@
 }
 .the{
     width: 50%
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      .Phone{
+        margin-left: -370px;
+      }
+      .Tablet{
+        margin-left: 70.9px;
+      }
+      .Mac{
+        margin-left: 440.9px;
+      }
+      .Ipod{
+        margin-left: 800.9px;
+      }
+      .names{
+        margin-left: -219.8px;
+      }
+      .names2{
+        margin-left: 107px;
+      }
+      .names3{
+        margin-left: 490px;
+      }
+      .names4{
+        margin-left: 890.9px;
+      }
+      .fast{
+       
+        margin-left: 190px;
+    }
+    .best{
+        margin-left: -150px;
+    }
+    .free{
+       
+        margin-left: 539px;
+    }
+    .warranty{
+        
+        margin-left: 899px;
+    }
 }
