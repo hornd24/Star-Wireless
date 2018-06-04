@@ -193,3 +193,10 @@
         margin-left: 899px;
     }
 }
+
+@media (min-width: 2000) {
+    .warranty{
+        
+        margin-left: 1099px;
+    }
+}
