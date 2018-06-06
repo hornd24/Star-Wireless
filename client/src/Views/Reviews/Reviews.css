@@ -1,0 +1,24 @@
+.Note{
+    font-family: 'Merriweather', serif;
+}
+.stars{
+    width: 300px ;
+    height: 80px;
+}
+.ReviewNames{
+    font-family: 'Sunflower', sans-serif;
+}
+.ReviewText{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.TheReviews{
+    height: 400px ;
+    width: 400px;
+    background-color: grey;
+}
+.sauna{
+    font-size: 17px;
+}
+.juan{
+    font-size: 16px;
+}

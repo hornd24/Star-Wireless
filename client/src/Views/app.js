@@ -6,7 +6,9 @@ import './app.scss'
 import TheNavBar from './NavBar/Navbar'
 import Header from './Header/Header'
 import Devices from './Devices/Devices'
+import Reviews from './Reviews/Reviews'
 import { Parallax } from 'react-scroll-parallax';
+import Misson from './Misson/Misson';
 class App extends Component {
 
   state={
@@ -31,12 +33,30 @@ class App extends Component {
 
 <Parallax
         className="Devices"
-        offsetYMax={70}
+        offsetYMax={100}
         offsetYMin={-10}
         slowerScrollRate
         tag="figure"
     >
 <Devices className='devicess'/>
+</Parallax>
+<Parallax
+        className="Reviews"
+        offsetYMax={-15}
+        offsetYMin={-20}
+        slowerScrollRate
+        tag="figure"
+    >
+<Reviews className='TheReviews'/>
+</Parallax>
+<Parallax
+        className="Misson"
+        offsetYMax={40}
+        offsetYMin={-5}
+        slowerScrollRate
+        tag="figure"
+    >
+<Misson className='Statement'/>
 </Parallax>
     {/* <Route exact path="/" component={Home}/>
     <Route path="/organization" component={Organization}/> */}

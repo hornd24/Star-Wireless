@@ -15,7 +15,7 @@ import Tablet from './Images/ipad.png';
 import Mac from './Images/mac.png';
 import Ipod from './Images/ipod.png';
 import './Devices.css'
- class Devices extends Component {
+ class Clientele extends Component {
     
      render(){
 
@@ -30,69 +30,57 @@ import './Devices.css'
             </Col>
             </Row>
             <Row>
-            <Col className="devi"  lg={3}>
-
+            <Col className="devi " md={8} lg={12}>
+<div className='group'>
 
            <Image  href='phones' src={Phones}  rounded responsive className="Phone" >
                           
                                </Image>
-                           
+                               <br/>
                              <a className='link names' href='/phones'>   Phones</a>
-                  </Col>        
-                  <Col lg={3}>
                                <Image href='/tablets' src={Tablet} rounded  responsive className=" Tablet" >
                 
 
                                </Image>
                         
                              <a  className='link names2' href='/tablets'>  Tablets</a>
-                             </Col>
-                             <Col lg={3}>
                                <Image href='/computers' src={Mac} rounded  responsive className=" Mac" >
                 
 
                 </Image>
              
                <a  className='link names3' href='/computers'>  Computers</a>
-               </Col>
-               <Col lg={3}>
                <Image href='/ipod' src={Ipod} rounded  responsive className="Ipod" >
                 
 
                 </Image>
                 <a href='/ipod' className='links names4'>Ipods</a>
-                   
+         </div>                   
                                
-</Col>
-         
+
+            </Col>
             </Row>
             <br/>  <br/>  <br/>
             <Row>
-                <Col className='theInfo' lg={3}>
+                <Col className='theInfo' lg={12}>
                 <Thumbnail className='best' responsive style={{width:'300px',height:'250px'}} >
                 <h4>Best Price Guarnteed</h4>
                 <br/>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
                 </Thumbnail>
-                </Col>
-                <Col lg={3}>
                 <Thumbnail responsive className='fast' style={{width:'300px',height:'250px'}} >
                 <h4>Fastest Service Around</h4>
                 <br/>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
                 </Thumbnail>
-                </Col>
-                <Col lg={3}>
                 <Thumbnail responsive className='free' style={{width:'300px',height:'250px'}} >
                 <h4>Free Diagnostics Check</h4>
                 <br/>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
                 </Thumbnail>
-                </Col>
-                <Col lg={3}>
                 <Thumbnail responsive className='warranty ' style={{width:'300px',height:'250px'}} >
                 <h4>30 Day Warranty</h4>
                 <br/>
@@ -100,7 +88,6 @@ import './Devices.css'
 
                 </Thumbnail>
                 </Col>
-           
                 </Row>
       
         </Grid>
@@ -108,4 +95,4 @@ import './Devices.css'
     )
 }
 }
-export default Devices;
+export default Clientele;

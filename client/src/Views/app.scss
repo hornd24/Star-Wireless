@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
 .app {
   // background-color: black;
 }
@@ -13,20 +17,18 @@
    background-image: linear-gradient(to right top, rgb(128,128,128) 60.3%, rgb(218, 41, 28), transparent 0px);
    filter: drop-shadow(3px 6px 4px 3 grey);
    box-shadow: 10px 10px grey;
-    // background-position-x: initial;
-    // background-position-y: initial;
-    // background-size: initial;
-    // background-repeat-x: initial;
-    // background-repeat-y: initial;
-    // background-attachment: initial;
-    // background-origin: initial;
-    // background-clip: initial;
-    // background-color: initial;
+   
 
+}
+.Reviews{
+  height: 1000px;
 }
 
 .Devices{
   background-color:	whitesmoke;
   height: 1200px;
 
+}
+.Misson{
+  height: 1000px;
 }

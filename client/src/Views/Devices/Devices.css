@@ -8,8 +8,8 @@
     height: 100%;
 }
 .names{
-    margin-left: -350.8px;
-    margin-top:30px;
+    /* margin-left: -350.8px;
+    margin-top:30px; */
    
     box-sizing: content-box;
     font-size: 30px;
@@ -17,10 +17,10 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 .names2{
-    margin-left: 40px;
+    /* margin-left: 40px; */
     width: 90px;
-    margin-top:45px;
-    padding-top: 40px;
+    /* margin-top:45px;
+    padding-top: 40px; */
    
     box-sizing: content-box;
     font-size: 30px;
@@ -30,18 +30,18 @@
     font-size: 30px;
     height: -2px;
     width: .5px;
-    margin-top:40px;
-    margin-left: 550px;
+    /* margin-top:40px;
+    margin-left: 550px; */
     font-family: 'IBM Plex Sans', sans-serif;
   
    
 }
 .names4{
-    margin-left: 1065px;
+    /* margin-left: 1065px; */
     font-size: 30px;
     height: -2px;
     width: .5px;
-    margin-top:40px;
+    /* margin-top:40px; */
     
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -50,40 +50,36 @@
    
 }
 
-.group{
-    margin-top: 200px;
-    margin-left: 170.9px;
-}
+
 .devi{
     margin-bottom: 10px;
 }
 
 .theInfo{
-    margin-top: 89px;
-    margin-left: 4%;
+
 }
 .fast{
-    margin-top:-270px; 
-    margin-left: 100px;
+   
+
 }
 .free{
-    margin-top:-270px; 
-    margin-left: 599px;
+  
+  
 }
 .warranty{
-    margin-top:-270px; 
-    margin-left: 1080px;
+
+
 }
 .best{
-    margin-left: -320px;
+    /* margin-left: -320px; */
 }
 .Phone{
     z-index: -1;
     height: 220px;
-    width: 500px;
-    margin-left: -500px;
-    padding-right: 100px;
-    margin-top: -70px;
+    width: 530px;
+    /* margin-left: -100px;
+    padding-left: 10px;
+    margin-top: -70px; */
     filter: grayscale(80%);
     transition: all .2s ease-in-out;
  
@@ -95,11 +91,12 @@
     transition: all .2s ease-in-out;
 }
 .Tablet{
+    /* margin-left: 42.5.9px; */
     height: 200px;
     width: 180px;
-    margin-top: -270px;
-    margin-left: 42.5.9px;
-    margin-bottom: 20px;
+    /* margin-top: -270px;
+  
+    margin-bottom: 20px; */
     filter: grayscale(80%);
     transition: all .2s ease-in-out;
 }
@@ -111,10 +108,10 @@
 .Mac{
     
         height: 205px;
-        width: 250px;
-        margin-bottom: 10px;
+        width: 230px;
+        /* margin-bottom: 10px;
         margin-top: -260.5px;
-        margin-left: 510.9px;
+        margin-left: 510.9px; */
         filter: grayscale(80%);
         transition: all .2s ease-in-out;
         transform: scale(1.1);
@@ -128,9 +125,10 @@
 .Ipod{
      height: 215px;
     width: 250px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px;
     margin-top: -270.5px;
-    margin-left: 970.9px;
+    margin-left: 70.9px; */
+    /* padding-right: 100px; */
     filter: grayscale(80%);
     transition: all .2s ease-in-out;
 
@@ -147,7 +145,7 @@
 .the{
     width: 50%
 }
-
+/* 
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
@@ -194,9 +192,52 @@
     }
 }
 
-@media (min-width: 2000) {
+@media only screen and (min-width: 992px){
     .warranty{
         
-        margin-left: 1099px;
+        margin-left: 979px;
     }
-}
+    .Phone{
+        margin-left: -450px;
+    }
+    .names{
+        margin-left: -302.8px;
+    }
+    .best{
+        margin-left: -236px;
+    }
+    .Ipod{
+        margin-left: 940.9px;
+    }
+    .names4{
+            margin-left: 1026.4px;
+    }
+    .Tablet{
+        margin-left: 55.9px;
+    }
+    .fast{
+        margin-left: 150px;
+    }
+    .names2{
+        margin-left: 95.7px;
+    }
+    .Mac{
+        margin-left: 470px;
+    }
+    .free{
+        margin-left: 537px;
+    }
+    .warranty{
+        margin-left: 960px;
+    }
+} */
+/* @media only screen and (min-width:1281px) {
+    .Ipod{
+        /* margin-left: 10.9px; */
+    /* }
+    .Mac{
+    
+        height: 205px;
+        width: 230px;
+    } */
+/* } */ 

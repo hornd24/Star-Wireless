@@ -32,11 +32,13 @@
     transform-style: preserve-3d;
     perspective: 600px;position: relative;
     transform: rotateY( 5.8deg);
-    filter: grayscale(18%)
+    filter: grayscale(18%);
+
 }
 .Iphone{
     /* background-size:auto 400px; */
     z-index: -10;
+    position: static;
     background-repeat: no-repeat;
     /* margin: 0 auto; */
   margin-top: 45%;
