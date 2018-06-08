@@ -11,6 +11,10 @@
 .ReviewText{
     font-family: 'Roboto Condensed', sans-serif;
 }
+.theRow{
+    height: 200px;
+    background: linear-gradient(to top right,grey 66.6%,grey,transparent 0);
+}
 .TheReviews{
     height: 400px ;
     width: 400px;

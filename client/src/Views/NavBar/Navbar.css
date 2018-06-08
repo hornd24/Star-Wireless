@@ -16,3 +16,8 @@
 height: 10px;
   background-color: black !important;
 }
+
+.navbar-default {
+    height: 100px;
+
+}

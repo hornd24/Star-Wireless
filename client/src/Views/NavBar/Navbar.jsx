@@ -41,7 +41,7 @@ import './Navbar.css'
     return (
         <div classNames="navbar"> 
            
-            <Navbar bsClass='navbar '  fluid={true} toggleKey collapseOnSelect  fixedTop>
+            <Navbar   fluid={true} toggleKey collapseOnSelect  fixedTop>
                 <Navbar.Header>
                     <Navbar.Brand>
                     <Link className="links" to="/" onClick={this.scrollToTop}>

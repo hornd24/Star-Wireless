@@ -1,0 +1,167 @@
+/* .footer{
+  margin: auto 0px;
+   color: black;
+  clear: both;
+  width: 100%; 
+ 
+  padding: 0;
+  border:0;
+} */
+.Flow{
+    width: 100%;
+    padding-top: -10%;
+   
+}
+.con{
+
+}
+
+.Twitter{
+  height: 30px;
+  width:45px;
+  
+}
+.Facebook{
+  height: 30px;
+  width:45px;
+}
+.Instagram{
+  height: 35px;
+  width:45px;
+}
+.Youtube{
+  height: 40px;
+  width:45px;
+}
+
+.labels{
+  margin-left: 63px;
+}
+
+.thecontact{
+  max-width: 200px;
+}
+.social{
+  
+  margin: auto 0;
+  margin-left: 20px;
+
+}
+.thesocial{
+margin-left: 1cm
+}
+
+.socialGroup{
+  margin-left: 0.001;
+}
+.Company{
+  font-family: 'Pacifico', cursive;
+  margin-left: .5cm;
+  /* font-family: 'Quicksand', sans-serif;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'VT323', monospace;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif; */
+}
+.between{
+  padding-left: 5px;
+}
+.social:hover{
+  filter: grayscale(0%)
+}
+.linkedinIcon{
+  /* height: 50%; */
+  z-index: 100; 
+  /* width: 50%; */
+}
+.Panel{
+  /* width: 1291px; */
+  background-size: cover;
+  background-color:grey ;
+  color: black;
+    height: 225px;
+    margin: auto;
+  
+}
+.panelBody{
+  background-size: cover;
+  background-color:grey;
+  border:0;
+  height: 100px;
+}
+.submit{
+  margin-bottom: 5%;
+}
+.lol{
+  margin: 1 0;
+  padding-left: 100%;
+   
+  
+    /* padding-left: 59px;  */
+    position: relative;
+    display: block; 
+    align-items: center;
+
+    padding: 0px;
+
+}
+.sitemap{
+  padding-right: 9%
+}
+.copy{
+  margin-top: 25px;
+  margin-left: 10px
+}
+.twitter1{
+  padding: 0;
+  padding-right: -25%;
+  margin: 2 -5 -5 auto;
+
+
+}
+
+
+.contacts{
+  height: .8%;
+  
+}
+.Text{
+  font-family: 'Noto Sans', sans-serif;
+}
+.thecontact{
+  /* height: 100%; */
+  width: 55%
+}
+
+.labels{
+  padding-right: 45%
+}
+.pictures{
+  padding-right: 35%
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .Panel {
+      height: 400px;
+      width: 400px;
+      margin: 0 auto 0 0;
+  }
+ 
+  .pictures{
+    margin: 0 auto 0 0;
+  }
+.contacts{
+  padding-left: 25%
+}
+.sitemap{
+  padding-left:2%;
+
+
+}
+/* .twitter1{
+  height: 1%;
+margin: 10
+} */
+
+}

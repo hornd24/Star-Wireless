@@ -9,6 +9,7 @@ import Devices from './Devices/Devices'
 import Reviews from './Reviews/Reviews'
 import { Parallax } from 'react-scroll-parallax';
 import Misson from './Misson/Misson';
+import Footer from './Footer/Footer'
 class App extends Component {
 
   state={
@@ -57,6 +58,15 @@ class App extends Component {
         tag="figure"
     >
 <Misson className='Statement'/>
+</Parallax>
+<Parallax
+        className="Footer"
+        offsetYMax={40}
+        offsetYMin={-5}
+        slowerScrollRate
+        tag="figure"
+    >
+<Footer className='TheFooter'/>
 </Parallax>
     {/* <Route exact path="/" component={Home}/>
     <Route path="/organization" component={Organization}/> */}

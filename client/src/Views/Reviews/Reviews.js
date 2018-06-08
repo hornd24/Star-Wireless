@@ -12,7 +12,7 @@ import Thumbnail from 'react-bootstrap/lib/Thumbnail';
 import Image from 'react-bootstrap/lib/Image';
 import ReactPhotoGrid from 'react-photo-grid';
 import Justin from './Images/justinbieber.jpg';
-import Brown from './Images/chris2.jpg';
+import Brown from './Images/chrisbrown.jpg';
 import Pump from './Images/Lil_Pump.jpg';
 import Sean from'./Images/seankingston.jpg';
 import Stars from './Images/5.png';
@@ -69,7 +69,7 @@ import './Reviews.css'
               </Col>
     
                     </Row>
-                    <Row style={{height:'300px'}}>
+                    <Row clasName='theRow'>
                 
    
                         </Row>

@@ -18,16 +18,17 @@ import Daniel from './Images/daniel.jpg';
 
     return (
 
-        <Grid className='backr'>
-        <Row className='top'>
-     <Col lg={4}>
-     <Image width={254} height={280} src={Daniel}/>
+        <Grid >
+        <Row >
+     <Col lg={5}>
+     <Image width={454} height={480} src="http://via.placeholder.com/350x350"/>
     
      </Col>
-     <Col lg={8}>
-     <h1> Come on in for the cheapest prices around!</h1>
+    
+     <Col lg={7}>
+     <h1> Come in for the cheapest prices around!</h1>
      <br/>
-     <p style={{fontSize:'20px'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+     <p style={{fontSize:'17.6px'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
      </Col>
     
@@ -45,7 +46,7 @@ import Daniel from './Images/daniel.jpg';
      </Col>
             
                             </Row>
-                            <Row style={{height:'100px'}}>
+                            <Row style={{height:'20px'}}>
                             </Row>
                             <Row className='top'>
      <Col lg={2}>

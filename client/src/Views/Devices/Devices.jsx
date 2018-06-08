@@ -23,10 +23,10 @@ import './Devices.css'
     return (
 
         <Grid className='backr'>
-        <Row className='top'>
+        <Row className='top groups'>
             
-            <Col lg={10}>
-           <h2> What can we fix for you at the cheapest price?</h2>
+            <Col className='what' lg={10}>
+           <h2 > What can we fix for you at the cheapest price?</h2>
             </Col>
             </Row>
             <Row>
