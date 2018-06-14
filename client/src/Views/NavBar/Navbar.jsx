@@ -12,31 +12,14 @@ import Button from 'react-bootstrap/lib/Button';
 import './Navbar.css'
 // import './Navbar.css'
  class TheNavbar extends Component {
-     scrollToTop=()=>{
-         window.scrollTo(0,10);
+     goHome=()=>{
+         
          window.location='/';
      };
     
-    scrollToEducation=()=>{
-        window.scrollTo(0,1500);
-        window.history.replaceState='/education';
-    };
-    scrollToClasswork=()=>{
-        window.scrollTo(0,2335);
-        window.history.replaceState='/classwork';
-    };
-    scrollToProjects=()=>{
-        window.scrollTo(0,2800);
-        window.history.replaceState='/projects';
-    };
-    scrollToAbout=()=>{
-        window.scrollTo(0,3400);
-        window.history.replaceState='/about';
-    };
-    scrollToContact=()=>{
-        window.scrollTo(0,4000);
-        window.history.replaceState='/contact';
-    }
+   goPricing=()=>{
+    window.location='/pricing';
+   }
      render(){
     return (
         <div classNames="navbar"> 
@@ -44,21 +27,21 @@ import './Navbar.css'
             <Navbar   fluid={true} toggleKey collapseOnSelect  fixedTop>
                 <Navbar.Header>
                     <Navbar.Brand>
-                    <Link className="links" to="/" onClick={this.scrollToTop}>
-                    <p className="links">
+                    <a className="links" href='/'>
+                    <p onClick={this.scrollToTop} className="links">
                     Cheapest Repairs
                     </p>
-                    </Link>
+                    </a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
-                <Nav pullRight style={{paddingLeft:'100px',paddingRight:'100px'}}>
-                    <NavItem eventKey={1} >
+                <Nav  >
+                    <NavItem style={{marginLeft:'50px',}} eventKey={1} >
+                    Santa Monica Location
+                    <br/>
+                    1301 South Main St #210, Los Angeles, CA 90015
                     
-                    <DropdownButton  eventKey={3} bsStyle='link' title='Santa Monica Location'>
-                    <MenuItem eventKey="1"> 1301 South Main St #210, Los Angeles, CA 90015</MenuItem>
-                    </DropdownButton>
                  
                        
                     </NavItem>
@@ -66,31 +49,27 @@ import './Navbar.css'
                    
                     
                    
-                    <NavItem eventKey={4} onClick={this.scrollToProjects}>
-
-                    <DropdownButton style={{paddingRight:'300px'}} eventKey={3} bsStyle='link' title='Los Angeles Location'>
-                    <MenuItem eventKey="1"> 1301 South Main St #210, Los Angeles, CA 90015</MenuItem>
-                    </DropdownButton>
+                    <NavItem eventKey={4} >
+                    Los Angeles Location
+                    <br/>
+                    1301 South Main St #210, Los Angeles, CA 90015
+                    
                     </NavItem>
-                     {/* <NavItem eventKey={4} onClick={this.scrollToProjects}>
-                    <Link to='projects'>
-
-                    <p style={{color:'white'}}>lkemkgvkgnnnmjknm</p>
-
-                        </Link>
-                    </NavItem>   <NavItem eventKey={4} onClick={this.scrollToProjects}>
-                    <Link to='projects'>
-                    <p style={{color:'white'}}>lkemkgvkgnm</p>
-                        </Link>
-                    </NavItem> */}
-                    <NavItem eventKey={6} onClick={this.scrollToContact} >
+                  
+                    <NavItem pullRight eventKey={6} style={{marginLeft:'150px',marginRight:'30px'}}>
                     <Button  className='buttons'bsStyle="primary" bsSize="sm">
                     <Link  className='service' to="/service">
                        Book Service
                         </Link>
                        </Button>
                     </NavItem>
-                  
+                    <NavItem pullRight eventKey={6} style={{margin:'0'}}>
+                    <Button  className='buttons'bsStyle="primary" bsSize="sm">
+                    <a onClick={this.goPricing} className='service' href="/pricing">
+                       Pricing
+                        </a>
+                       </Button>
+                    </NavItem>
                    
                    
                 </Nav>

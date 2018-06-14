@@ -47,10 +47,10 @@ import './Reviews.css'
           <Thumbnail src={Brown}/>
           </Col>
           <Col lg={3}>
-          <Thumbnail  src={Pump}/>
+          <Thumbnail  responsive src={Pump}/>
           </Col>
           <Col lg={3}>
-          <Thumbnail src={Sean}/>
+          <Thumbnail responsive src={Sean}/>
           </Col>
 
                 </Row>

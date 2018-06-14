@@ -21,17 +21,30 @@
   width:45px;
   
 }
+.Twitter:hover{
+  transform: scale(1.3);
+  
+}
 .Facebook{
   height: 30px;
   width:45px;
+}
+.Facebook:hover{
+  transform: scale(1.3);
 }
 .Instagram{
   height: 35px;
   width:45px;
 }
+.Instagram:hover{
+  transform: scale(1.3);
+}
 .Youtube{
   height: 40px;
   width:45px;
+}
+.Youtube:hover{
+  transform: scale(1.3);
 }
 
 .labels{

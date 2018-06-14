@@ -9,19 +9,33 @@ import Devices from './Devices/Devices'
 import Reviews from './Reviews/Reviews'
 import { Parallax } from 'react-scroll-parallax';
 import Misson from './Misson/Misson';
-import Footer from './Footer/Footer'
+import Footer from './Footer/Footer';
+import Pricing from './Pricing/Pricing'
 class App extends Component {
 
   state={
-
+      hideMain:false
   }
-
+componentDidMount=()=>{
+    const url = window.location.toString().split('/');
+    if (url[3] === 'pricing') {
+        this.setState({
+         hideMain:true
+        })
+      }
+      else{
+          this.setState({
+              hideMain:false
+          })
+      }
+}
   render(){
     return(
 <BrowserRouter>
   <div className="app">
    
 <TheNavBar/>
+{!this.state.hideMain&&
 <Parallax
         className="TheHeader"
         offsetYMax={20}
@@ -31,7 +45,8 @@ class App extends Component {
     >
 <Header className='Header'/>
 </Parallax>
-
+}
+{!this.state.hideMain&&
 <Parallax
         className="Devices"
         offsetYMax={100}
@@ -41,6 +56,8 @@ class App extends Component {
     >
 <Devices className='devicess'/>
 </Parallax>
+}
+{!this.state.hideMain&&
 <Parallax
         className="Reviews"
         offsetYMax={-15}
@@ -50,6 +67,8 @@ class App extends Component {
     >
 <Reviews className='TheReviews'/>
 </Parallax>
+}
+{!this.state.hideMain&&
 <Parallax
         className="Misson"
         offsetYMax={40}
@@ -59,6 +78,8 @@ class App extends Component {
     >
 <Misson className='Statement'/>
 </Parallax>
+}
+<Route exact path='/pricing' component={Pricing}/>
 <Parallax
         className="Footer"
         offsetYMax={40}
@@ -68,8 +89,9 @@ class App extends Component {
     >
 <Footer className='TheFooter'/>
 </Parallax>
-    {/* <Route exact path="/" component={Home}/>
-    <Route path="/organization" component={Organization}/> */}
+
+
+<Route path="/organization" component={Organization}/> 
   </div>
 </BrowserRouter>
     )

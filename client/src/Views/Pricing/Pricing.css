@@ -1,0 +1,30 @@
+/* .tabless{
+    width: 100%;
+} */
+.tablesMobile{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .tablesMobile{
+        display:contents;
+    }
+    .tabless{
+        display: none;
+        margin-left: -100px;
+        width: 10%;
+max-width: 10px;
+    }
+    .tableWrap{
+        resize:both;
+        /* width: 100px; */
+    }
+    tr,td{
+        border:2px;
+    }
+    table {
+        width: 10px;
+    }
+    th {
+    height: 50px;
+}
+}
